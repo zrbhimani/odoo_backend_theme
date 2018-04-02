@@ -3,15 +3,20 @@ body {
     overflow: auto;
     overflow-x: hidden;
 }
-#wrapper { 
-    height: 100%;
-    overflow: visible;
+#wrapper {
+    height: 100%; 
+    background-color: #293846;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .wrapper-content {
     padding: 20px 10px 60px;
 }
 #page-wrapper {
     min-height: 100%;
+}
+.o_mail_chat {
+    padding-top: 15rem;
 }
 .oe_systray #oe_attendance_sign_in_out_icon {
     color: #999c9e;
@@ -30,7 +35,9 @@ body {
 .nav.nav-second-level > li.active {
     border-left: 4px solid darken(@navy, 2%);
 }
-*/
+#page-wrapper > .footer {
+    display: none;
+}
 
 // Logo
 .logo-area {
