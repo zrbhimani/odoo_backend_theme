@@ -7,10 +7,13 @@
 
         <xpath expr="//*[@id='oe_main_menu_navbar']" position="replace">
             <nav class="navbar-default navbar-static-side" role="navigation">
-                <div class="logo-area">
-                    <img t-attf-src="/theme_extensia/static/src/img/logo.png" class="logo" />
-                    <img t-attf-src="/theme_extensia/static/src/img/logo_mini.png" class="logo_mini" />
+                <a class="o_sub_menu_logo" href="/web">
+                    <div class="logo-area" style="min-height:110px">
+                    <img src='/web/binary/company_logo' class="logo"/>
+                    <!--<img t-attf-src="/theme_extensia/static/src/img/logo.png" class="logo" />-->
+                    <!--<img t-attf-src="/theme_extensia/static/src/img/logo_mini.png" class="logo_mini" />-->
                 </div>
+                </a>
                 <div class="sidebar-collapse" id="oe_main_menu_placeholder">
                     <t t-call="web.menu"/>
                 </div>
